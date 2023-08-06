@@ -15,7 +15,7 @@ class LinkedList
             @tail = @tail.next_node
         end
     end
-    
+
     def prepend(value)
         if @head.nil?
             @head = Node.new(value)
@@ -27,4 +27,11 @@ class LinkedList
         end
     end
 
+    def printList
+        while @head
+            print "(#{@head.value}) -> "
+            @head = @head.next_node
+        end
+        puts "nil"
+    end
 end
