@@ -3,15 +3,13 @@ require_relative 'lib/linked_list'
 list = LinkedList.new
 
 #test it out
-list.append(1)
-list.append(2)
-list.append(3)
-list.append(4)
-list.append(5)
+5.times do |i|
+    list.append(i)
+end
 
-list.prepend(0)
-list.prepend(-1)
-list.prepend(-2)
+for i in -3..-1
+    list.prepend(i)
+end
 
 puts list.size
 
