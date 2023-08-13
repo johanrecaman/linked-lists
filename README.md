@@ -1,4 +1,4 @@
-<h1 align="center">Ruby Recursion Exercises</h1>
+<h1 align="center">Ruby Linked Lists</h1>
 
 <p align="center">This is an implementation of a Linked List in ruby for sudying purposes</p>
 
